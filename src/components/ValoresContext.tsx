@@ -51,7 +51,7 @@ export function ValoresProvider({ children }: { children: React.ReactNode }) {
     const texto = (valor ?? '').toString();
     if (!oculto) return texto;
     if (texto.trim() === '') return texto;
-    return 'R$ ••••••';
+    return 'R$ •••••••';
   };
 
   return (

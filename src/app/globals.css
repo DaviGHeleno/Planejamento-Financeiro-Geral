@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* Usa a fonte Geist carregada no layout.tsx, com as do sistema como reserva */
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
